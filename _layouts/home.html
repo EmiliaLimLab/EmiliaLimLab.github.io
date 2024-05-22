@@ -13,13 +13,13 @@
 	<nav>
 		<ul>
 			<a class="navbar-brand" href="/">
-				<img class="white_logo" src="/images/logos/lablogo_white.jpg" height="99" width="95" />
-      <li><a href="/index.html/"><h1><p class="lim_lab"><b><nobr>Lim Lab</nobr></b></p></h1></a></li>
+				<img class="white_logo" src="{{ '/images/logos/lablogo_white.jpg' | relative_url }}" height="99" width="95" />
+	  <li><a href="{{ relative_url }}"><h1><p class="lim_lab"><b><nobr>Lim Lab</nobr></b></p></h1></a></li>
 			<div class="nav_tabs">
-			<li><a href="/news/"><p class="nav">News</p></a></li>
-			<li><a href="/research/"><p class="nav">Research</p></a></li>
-			<li><a href="/publications/"><p class="nav">Publications</p></a></li>
-			<li><a href="/team/"><p class="nav">Team</p></a></li>  
+			<li><a href="{{ '/news' | relative_url }}"><p class="nav">News</p></a></li>
+			<li><a href="{{ '/research' | relative_url }}"><p class="nav">Research</p></a></li>
+			<li><a href="{{ '/publications' | relative_url }}"><p class="nav">Publications</p></a></li>
+			<li><a href="{{ '/team' | relative_url }}"><p class="nav">Team</p></a></li>  
       </div>  
 		</ul>
 	  </nav>
