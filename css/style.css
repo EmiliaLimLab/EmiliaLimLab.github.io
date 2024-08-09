@@ -1,3 +1,10 @@
+
+# Welcome Page
+.welcome {
+  margin-top: -10px;
+  margin-bottom: 50px;
+}
+
 .img_ubc {
 	float: left;
 	margin-bottom: 10px;
@@ -19,3 +26,15 @@
 	float: right;
 	margin-right: 8px;
 }
+
+.homepage_link {
+	text-decoration: none;
+	color: #004492;
+}
+
+.homepage_link:hover {
+	text-decoration: underline;
+	text-decoration-color: #4d88cd;
+	color: #4d88cd;
+}
+
